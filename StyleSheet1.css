@@ -7,10 +7,7 @@ body {
     
    }
   
-      
-        
-   
-  .welcome {
+      .welcome {
       font-size: 5rem;
       color:whitesmoke;
       margin-top: -20rem;
@@ -41,6 +38,15 @@ body {
         font-size: 5rem;
         margin:auto;
 
+    }
+    .dark-mode {
+        background-color: black;
+        color:whitesmoke;
+        background-image: none;
+    }
+    #button1 {
+        background-color: black;
+        color: white;
     }
 
 

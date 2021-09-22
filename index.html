@@ -6,8 +6,19 @@
     <title>min sida</title>
     <link rel="stylesheet" href="StyleSheet1.css"/>
     <script src="myscript1.js"></script> 
-</head>
-<body>
+
+    
+      </head>
+      <body>
+       <button id="button1" onclick="myFunction()">Mörkt tema</button>
+     <script>
+      function myFunction() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+      </script>
+
+
 <section> 
 <div class="timer">
     <div>
@@ -28,7 +39,8 @@
         <div class="container-second">
             <h2 class="second">0</h2> 
             <h2>sekunder</h2>
-</div>
+            </div>
 </section>
+
 </body>
 </html>
